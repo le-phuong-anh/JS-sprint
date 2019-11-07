@@ -41,7 +41,9 @@ Welcome to README!! read through this to make your own set-up of JS compiler.
     - Write in the terminal (*aka* ***console***) `node test.js`
 
     > make sure your directory is correct, it must be `C:\Users\<YOUR_USER_NAME>\Desktop>`
+    
     > If it's not correct, run `cd C:\Users\<YOUR_USER_NAME>\Desktop>`
+    
     > `cd` stands for ***change directory*** 
     It should print your console.log
     <img alt="compile" src="./compile.png"/>
