@@ -15,7 +15,7 @@ Welcome to README!! read through this to make your own set-up of JS compiler.
       </a>
     </p>
 
-  > To see if you successfully installed Node.js, open terminal and type `node -v`. You should see the log says `v12.3.4` or whatever       version your Node.js is.
+  > To see if you successfully installed Node.js, open terminal in Mac or Command Prompt in Windows and type `node -v`. You should see the log says `v12.3.4` or whatever       version your Node.js is.
   <img alt="node-v" src="./node-v.png"/>
 
 2. **Create JS file**
@@ -28,7 +28,7 @@ Welcome to README!! read through this to make your own set-up of JS compiler.
 
 3. **Open file in VScode**
 
-    Open file with VScode
+    **Open with -> Visual Studio Code**
     <img alt="open with" src="./open-with.png"/>
 
     Navigate to **terminal-> new terminal** in VScode
