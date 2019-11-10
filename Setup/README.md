@@ -1,11 +1,13 @@
 # JS sprint
-Welcome to README!! read through this to make your own set-up of JS compiler.
+
+Welcome to README!! read through this to make your own set-up of JS compiler. (test)
 
 ## 🚀 Let's start
 
 1. **Install Node & VScode**
 
     Let's install these two (click to the images)
+
     <p align="center">
       <a href="https://nodejs.org/">
         <img alt="Node" src="https://img.icons8.com/color/48/000000/nodejs.png" width="100" />
@@ -15,17 +17,17 @@ Welcome to README!! read through this to make your own set-up of JS compiler.
       </a>
     </p>
 
-  > To see if you successfully installed Node.js, open terminal in Mac or Command Prompt in Windows
-  > type `node -v`. You should see the log says `v12.3.4` or whatever version your Node.js is.
-  <img alt="node-v" src="./node-v.png"/>
+> To see if you successfully installed Node.js, open terminal in Mac or Command Prompt in Windows
+> type `node -v`. You should see the log says `v12.3.4` or whatever version your Node.js is.
+> <img alt="node-v" src="./node-v.png"/>
 
 2. **Create JS file**
 
     - Create a plain text file in your Desktop (`C:\Users\<YOUR_USER_NAME>\Desktop>`)
-    - Rename it 
-    <img alt="rename JS file" src="./files.png"/>
+    - Rename it
+      <img alt="rename JS file" src="./files.png"/>
 
-    > Your file extension must have `.js` at the end 
+    > Your file extension must have `.js` at the end
 
 3. **Open file in VScode**
 
@@ -36,22 +38,25 @@ Welcome to README!! read through this to make your own set-up of JS compiler.
     <img alt="open terminal" src="./open-terminal.png"/>
 
 4. **Code and compile**
+
     - Write something in your **test.js** file, in my case I write `console.log('hello world!')`
 
-    - Write in the terminal (*aka* ***console***) `node test.js`
+    - Write in the terminal (_aka_ **_console_**) `node test.js`
 
     > make sure your directory is correct, it must be `C:\Users\<YOUR_USER_NAME>\Desktop>`
-    
+
     > If it's not correct, run `cd C:\Users\<YOUR_USER_NAME>\Desktop>`
-    
-    > `cd` stands for ***change directory*** 
-    It should print your console.log
-    <img alt="compile" src="./compile.png"/>
+
+    > `cd` stands for **_change directory_**
+    > It should print your console.log
+    > <img alt="compile" src="./compile.png"/>
 
 # 🔥 OFF YOU GO!
-  Whenever you want to run your code, just repeat step #4
 
-# 📝 RECAP 
-  - Node.js is a JavaScript runtime environment that executes JavaScript code outside of a browser (on your server). If Node.js is not installed, you can't run `node <YOUR_COMMAND>` in your terminal  💻 
-  - VScode: all web developers in the world use this IDE (Integrated Development Environment) 😋
-  - Run JS on Node server is very useful for practising exercises 🏃
+Whenever you want to run your code, just repeat step #4
+
+# 📝 RECAP
+
+-   Node.js is a JavaScript runtime environment that executes JavaScript code outside of a browser (on your server). If Node.js is not installed, you can't run `node <YOUR_COMMAND>` in your terminal 💻
+-   VScode: all web developers in the world use this IDE (Integrated Development Environment) 😋
+-   Run JS on Node server is very useful for practising exercises 🏃
