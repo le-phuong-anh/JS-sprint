@@ -19,23 +19,23 @@ Welcome to README!! read through this to make your own set-up of JS compiler. (t
 
 > To see if you successfully installed Node.js, open terminal in Mac or Command Prompt in Windows
 > type `node -v`. You should see the log says `v12.3.4` or whatever version your Node.js is.
-> <img alt="node-v" src="./node-v.png"/>
+> <img alt="node-v" src="./images/node-v.png"/>
 
 2. **Create JS file**
 
     - Create a plain text file in your Desktop (`C:\Users\<YOUR_USER_NAME>\Desktop>`)
     - Rename it
-      <img alt="rename JS file" src="./files.png"/>
+      <img alt="rename JS file" src="./images/files.png"/>
 
     > Your file extension must have `.js` at the end
 
 3. **Open file in VScode**
 
     **Open with -> Visual Studio Code**
-    <img alt="open with" src="./open-with.png"/>
+    <img alt="open with" src="./images/open-with.png"/>
 
     Navigate to **terminal-> new terminal** in VScode
-    <img alt="open terminal" src="./open-terminal.png"/>
+    <img alt="open terminal" src="./images/open-terminal.png"/>
 
 4. **Code and compile**
 
@@ -49,7 +49,7 @@ Welcome to README!! read through this to make your own set-up of JS compiler. (t
 
     > `cd` stands for **_change directory_**
     > It should print your console.log
-    > <img alt="compile" src="./compile.png"/>
+    > <img alt="compile" src="./images/compile.png"/>
 
 # 🔥 OFF YOU GO!
 
