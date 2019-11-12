@@ -9,7 +9,9 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 ```
-It may be useful to know that you can find the length of a string by writing .length after it.
+
+After this exercise, you should be familiar with loop, string's methods
+> Hint: after every loop, add one more `#` to your string and console.log()
 
 2. FizzBuzz
 Write a program that uses console.log to print all the numbers from 1 to 100, with two exceptions. For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead.
