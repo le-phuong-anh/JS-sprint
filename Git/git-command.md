@@ -7,11 +7,11 @@ $ git checkout -b <BRANCH_NAME>
 code...
 $ git add .
 $ git commit -m "<MESSAGES>"
-$ git checkout develop
+$ git checkout master
 $ git fetch <origin OR upstream>
 $ git pull <origin OR upstream>
 $ git checkout <BRANCH_NAME>
-$ git merge develop
+$ git merge master
 $ git push <origin OR upstream>
 ```
 
