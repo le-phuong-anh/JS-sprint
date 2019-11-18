@@ -8,18 +8,27 @@
 // ```
 
 
-function findMax(x,y,z) {
-    if (x > y && x > z) {
+// function findMax(x,y,z) {
+//     if (x > y && x > z) {
+//         console.log(x);
+//     } else if (y > x && y > z) {
+//         console.log(y);
+//     } else if (z > x && z > y) {
+//         console.log(z); 
+//     } else if (x = y = z) {
+//         console.log(x);
+//     } else {
+//         console.log();
+//     }
+// }
+
+//What if we have an array of number, rather than just 3 integer numbers? 
+
+function anotherFindMax(x, ...args){
+    if (x > args) {
         console.log(x);
-    } else if (y > x && y > z) {
-        console.log(y);
-    } else if (z > x && z > y) {
-        console.log(z); 
-    } else if (x = y = z) {
-        console.log(x);
-    } else {
-        console.log();
     }
 }
 
-//What if we have an array of number, rather than just 3 integer numbers? 
+//i'm still thinking how to use the rest parameter
+//another direction i was thinking of is to create a ray of number, and then use the loop function to check if a number in the array is bigger than any other number, then we return that number
