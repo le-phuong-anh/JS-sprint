@@ -8,18 +8,41 @@
 // x % 3 = 0 && x % 5 = 0
 
 
-function fizzBuzz() {
+// function fizzBuzz() {
+//     var numbers = [];
+//     for (var i = 1; i < 101; i++){  
+//         if (i % 3 === 0 && i % 5 === 0) {
+//         numbers.push("FizzBuzz");  //Moving this if statement to be in front of the other statement because js files render from top to bottom    
+//         } else if (i % 3 === 0) {
+//             numbers.push("Fizz");
+//         } else if (i % 5 === 0) {
+//             numbers.push("Buzz"); 
+//         } else {
+//             numbers.push(i);  //Add an increment of 1 into the "numbers" array
+//         }
+//     }
+//     console.log(numbers);
+// }
+
+function fizzBuzz(){
     var numbers = [];
-    for (var i = 1; i < 101; i++){  
-        if (i % 3 === 0 && i % 5 === 0) {
-        numbers.push("FizzBuzz");  //Moving this if statement to be in front of the other statement because js files render from top to bottom    
-        } else if (i % 3 === 0) {
+    for (var i=1; i<101; i++){
+        switch(numbers){
+        case i % 3 === 0:
             numbers.push("Fizz");
-        } else if (i % 5 === 0) {
-            numbers.push("Buzz"); 
-        } else {
-            numbers.push(i);  //Add an increment of 1 into the "numbers" array
-        }
+        break;
+        case i % 5 === 0:
+            numbers.push("Buzz");
+        break;
+        case i % 3 === 0 && i % 5 === 0:
+            numbers.push("FizzBuzz");  
+        break;
+        default: numbers.push(i);
+        
     }
+    
+}
     console.log(numbers);
 }
+
+//Help! I'm stuck : ( Can't figure out why the code above couldn't return the correct result.
