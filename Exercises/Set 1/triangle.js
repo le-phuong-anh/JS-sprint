@@ -19,8 +19,7 @@
 function triangleBuilding() {
     var string = "#";
     var repeatedString = "";
-    for (var i = 0; i < 7; i++) {
-        repeatedString = repeatedString + string;
-        console.log(repeatedString);
+    for (var i = 0; i < 7; i++){
+        console.log(repeatedString += string);
     }
 }
